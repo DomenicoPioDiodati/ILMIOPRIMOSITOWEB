@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    background-color: #a0c7dd;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+.header{
+    background-color:#00cbfd
+    box-shadow: 1px 1px 4px 0;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left:0%;
+    z-index: 100;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    animation: hearder 7s infinite linear;
+}
+@keyframes hearder{
+    from{
+        transform: translate(-100%);
+    }
+    to{
+        transform: translate(60%);
+    }
+}
+
+.header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color:transparent
+}
+
+.header ul a{
+    display: block;
+    padding: 20px;
+    border-right: 0px solid red;
+    text-decoration: none;
+}
+
+.header ul a:hover{
+    background-color: rgb(124, 220, 244)
+}
+
+.logo{
+    float: left;
+    font-size: 15;
+    padding: 10px 37px;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu{
+    position:absolute;
+    top: 20%;
+    bottom: 0%;
+    left: 60%;
+    right: 0%;
+    list-style: none;
+}
+
+.logo{
+    position: absolute;
+    font-family: "Acme", sans-serif;
+    font-size: 40px;
+    top: 20%;
+    bottom: 110%;
+    left: 37%;
+    right: 0%;
+    color:rgb(12, 28, 124);
+}
+
+.immagini{
+    position: absolute;
+    top:60%;
+    bottom: 10%;
+    left:400px;
+}
+
+.altro{
+    position: absolute;
+    top:60%;
+    bottom: 10%;
+    right: 0%
+}
+
+.altro2 {
+    position: absolute;
+    top:5%;
+    bottom: 10%;
+    left: 10%;
+}
+
