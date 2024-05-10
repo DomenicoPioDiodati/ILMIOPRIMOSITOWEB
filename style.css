@@ -94,8 +94,18 @@ a{
 
 .altro2 {
     position: absolute;
-    top:5%;
+    top:17%;
     bottom: 10%;
-    left: 10%;
+    left: 5%;
+}
+
+.Benvenuti{
+    position: absolute;
+    top:38%;
+    bottom: 10%;
+    left: 31%;
+    color: rgb(30, 30, 139);
+    font-family:initial
+    width="400%"
 }
 
